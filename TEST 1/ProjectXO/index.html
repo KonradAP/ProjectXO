@@ -1,0 +1,99 @@
+s<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styleXO.css" />
+    <script src="indexXO.js" async></script>
+    <title>IndexXO</title>
+  </head>
+  <body>
+    <div id="message-no-win" class="popup">
+      <div class="message">
+        <h1>No one wins.</h1>
+        <p>Click button to restart the game.</p>
+        <button class="restart-button" id="restart-button1">Restart</button>
+      </div>
+      </div>
+      <div id="message-red-win" class="popup">
+        <div class="message">
+          <h1><span class="red-letter">Red wins.</span></h1>
+          <p>Click button to restart the game.</p>
+          <button class="restart-button" id="restart-button2">Restart</button>
+        </div>
+        </div>
+        <div id="message-blue-win" class="popup">
+          <div class="message">
+            <h1><span class="blue-letter">Blue wins.</span></h1>
+            <p>Click button to restart the game.</p>
+            <button class="restart-button"id="restart-button3">Restart</button>
+          </div>
+          </div>
+    </div>
+    <div class="container">
+      <h1 id="main-header" class="text">
+        <span class="red-letter">Red</span> and
+        <span class="blue-letter">Blue</span>
+      </h1>
+      <h2 id="m-h-bottom-text" class="text">
+        Tic Tac Toe, but with different name.
+      </h2>
+      <p id="explaination-text" class="text">
+        Click to change color of a box to red or blue, if You get 3 in a row you
+        win.
+      </p>
+
+      <div id="game-background">
+        <button
+          id="button1"
+          class="game-button"
+          style="background-color: black"
+        ></button>
+        <button
+        id="button2"
+          class="game-button"
+          style="background-color: black"
+        ></button>
+        <button
+          id="button3"
+          class="game-button"
+          style="background-color: black"
+        ></button>
+        <button
+          id="button4"
+          class="game-button"
+          style="background-color: black"
+        ></button>
+        <button
+          id="button5"
+          class="game-button"
+          style="background-color: black"
+        ></button>
+        <button
+          id="button6"
+          class="game-button"
+          style="background-color: black"
+        ></button>
+        <button
+          id="button7"
+          class="game-button"
+          style="background-color: black"
+        ></button>
+        <button
+          id="button8"
+          class="game-button"
+          style="background-color: black"
+        ></button>
+        <button
+          id="button9"
+          class="game-button"
+          style="background-color: black"
+        ></button>
+      </div>
+    </div>
+  </body>
+</html>
